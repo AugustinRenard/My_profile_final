@@ -1,0 +1,173 @@
+body {
+  background-color: #f2f2f5;
+  color: #6b6d8d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+h1 {
+  color: #6f718f;
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+
+h2 {
+  color: #b9d9a8;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 70px 60px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.intro-card {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 40px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.intro-text {
+  max-width: 760px;
+  margin: 0 auto 40px auto;
+  font-size: 28px;
+}
+
+.btn-blue {
+  display: inline-block;
+  background-color: #6c72e6;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 34px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #5960d9;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7fb;
+  color: #6f718f;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #ececff;
+}
+
+.social-links i {
+  font-size: 24px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .intro-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .card-white {
+    padding: 45px 25px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .intro-text {
+    font-size: 20px;
+  }
+
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+
+  .btn-blue {
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+}
